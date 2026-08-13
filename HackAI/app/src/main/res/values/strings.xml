@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HackAI</string>
+    <string name="overlay_hint">请开启悬浮窗权限以显示 HackAI ClickGUI。</string>
+</resources>

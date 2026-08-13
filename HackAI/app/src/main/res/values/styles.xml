@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.HackAI" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorAccent">@color/hack_ai_blue</item>
+        <item name="android:navigationBarColor">@color/hack_ai_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#DDDDDD</item>
+    </style>
+</resources>
