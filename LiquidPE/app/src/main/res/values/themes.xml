@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LiquidPE" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/minecraft</item>
+        <!-- ClickGUI 背景:布局与视图画布均透明,窗口提供深色亚克力基底 -->
+        <item name="android:windowBackground">@color/acrylic_backdrop</item>
+    </style>
+
+    <style name="Theme.LiquidPE" parent="Base.Theme.LiquidPE" />
+
+</resources>
