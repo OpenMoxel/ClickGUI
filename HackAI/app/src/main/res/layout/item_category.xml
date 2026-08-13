@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  分类卡片项：
+  - 整张卡 hover/selected 切换时背景改变（由代码控制 bg_category_idle / bg_category_active）
+  - 左侧彩色图标放在 圆角矩形背景（drawable 由代码按 category 颜色动态设置）
+  - 选中态有明显高亮（bg_category_active = hack_ai_card_active）
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/categoryRoot"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/bg_category_idle"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <FrameLayout
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/bg_category_icon">
+
+        <ImageView
+            android:id="@+id/categoryIcon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/hack_ai_text"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</LinearLayout>
