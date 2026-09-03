@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.ideal" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/launcher_background</item>
+        <item name="android:navigationBarColor">@color/launcher_background</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

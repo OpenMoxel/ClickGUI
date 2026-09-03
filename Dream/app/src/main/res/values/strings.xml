@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ideal</string>
+    <string name="hud_brand_name">IdealClient</string>
+    <string name="launcher_description">System overlay ClickGUI controller</string>
+    <string name="overlay_permission_granted">Overlay permission granted</string>
+    <string name="overlay_permission_needed">Grant overlay permission to start ideal</string>
+    <string name="start_overlay">Start overlay</string>
+    <string name="open_overlay_settings">Open overlay settings</string>
+    <string name="stop_overlay">Stop overlay</string>
+</resources>

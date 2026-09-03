@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#111426</color>
+    <color name="text_primary">#F2EFF7</color>
+    <color name="text_secondary">#AAA4B7</color>
+    <color name="card_background">#292B42</color>
+    <color name="accent_end">#586FB8</color>
+</resources>
